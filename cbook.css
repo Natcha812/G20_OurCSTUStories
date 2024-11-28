@@ -54,10 +54,12 @@ body{
 }
 
 .container form .detailspersonal{
-   margin-top: 10px;
+   margin-top: 30px;
 }
 
 .container form .title{
+    display: block;
+    margin-bottom: 8px;
     font-size: 18px;
     font-weight: 650;
     margin: 6px 0;
@@ -74,6 +76,7 @@ form .fields .inputfields{
     display: flex;
     width: calc(100% / 3 - 15px);
     flex-direction: column;
+    margin: 4px 0;
 }
 .inputfields label{
     font-size: 12px;
@@ -82,5 +85,13 @@ form .fields .inputfields{
 }
 
 .inputfields input{
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid#aaa;
+    padding: 0 15px;
     height: 42px;
+    margin: 8px 0;
 }
