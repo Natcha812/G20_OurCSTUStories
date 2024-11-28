@@ -20,14 +20,14 @@ footer {
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
 }
-.futureimg {
+.journeyimg {
     text-align: center;
     display: flex;
     justify-content: center; 
     align-items: center; 
     flex-wrap: wrap; 
 }
-.futureimg img {
+.journeyimg img {
     display: inline-block;
     width: 450px;
     height: 200px;
