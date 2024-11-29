@@ -91,7 +91,7 @@ footer {
     
 }
 
-.info-section {
+.info-sections {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -111,12 +111,11 @@ footer {
 
 .image-content1 {
     flex-shrink: 0;
-    display: block; 
+    text-align: center;
 }
 
 .image-text {
-    text-align: center;
-    font-size: larger;
+    font-size:larger;
 }
 
 
