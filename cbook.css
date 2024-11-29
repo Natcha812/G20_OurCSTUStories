@@ -70,6 +70,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 form .fields .inputfields{
@@ -94,4 +95,63 @@ form .fields .inputfields{
     padding: 0 15px;
     height: 42px;
     margin: 8px 0;
+}
+
+.inputfields input:is(:focus , :valid){
+   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+}
+.inputfields input[type="date"]{
+    color: #707070;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.inputfields input[type="date"]:valid{
+    color: #333;
+}
+
+<!--           space             --
+
+.comments .fields-c{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form .fields-c .inputfields-c{
+    display: flex;
+    width: calc(100% / 3 - 15px);
+    flex-direction: column;
+    margin: 4px 0;
+}
+.inputfields-c label{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2e2e2e;
+}
+
+.inputfields-c textarea{
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid#aaa;
+    padding: 0 15px;
+    height: 220px;
+    width: 838px;
+    margin: 8px 0;
+}
+
+.inputfields-c textarea:is(:focus , :valid){
+   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
+}
+.inputfields-c textarea[type="date"]{
+    color: #707070;
+}
+
+.inputfields-c textarea[type="date"]:valid{
+    color: #333;
 }
