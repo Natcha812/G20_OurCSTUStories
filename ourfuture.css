@@ -187,4 +187,7 @@ footer {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: normal;
     font-size: 18.5px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 10px;
 }
