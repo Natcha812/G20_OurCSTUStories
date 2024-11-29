@@ -16,9 +16,26 @@ header {
 }
 
 footer {
-    background-color: #ace1eb;
-    text-align: center;
+    background-color: #ace1eb; 
+    text-align: center; /
     font-family: "Bai Jamjuree", sans-serif;
+    padding: 20px 0; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto; 
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #3b4b7d;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 .journeyimg {
     text-align: center;
