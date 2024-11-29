@@ -191,3 +191,14 @@ footer {
     border-radius: 6px;
     padding: 10px;
 }
+
+.table {
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.table img {
+    width: 100%;
+}
