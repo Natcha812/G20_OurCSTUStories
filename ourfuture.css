@@ -4,11 +4,11 @@
 
 body {
     font-family: "Bai Jamjuree", sans-serif;
-    background-color: #edf7f9;
+    background-color: #fbf0ff;
     font-size: 17px;
 }
 header {
-    background-color: #ace1eb;
+    background-color: #d7c3e5;
     padding: 2px;
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
@@ -16,9 +16,26 @@ header {
 }
 
 footer {
-    background-color: #ace1eb;
-    text-align: center;
+    background-color: #d7c3e5;
+    text-align: center; 
     font-family: "Bai Jamjuree", sans-serif;
+    padding: 20px 0; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto; 
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #3b4b7d;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 .futureimg {
     text-align: center;
@@ -41,10 +58,10 @@ footer {
 .textboxone {
     font-family: "Bai Jamjuree", sans-serif;
     border: 2px solid #000;
-    background-color: #acebe9;
+    background-color: #e7b5d9;
     padding: 5px;
     width: 300px;
-    height: 65px;
+    height: 61px;
     border-radius: 20px;
     text-align: center;
     justify-content: center;
@@ -138,7 +155,7 @@ footer {
     border: 2px solid #020202;
     background-color: #f8fbfc;
     padding: 35px;
-    width: 100vh;
+    width: 1200px;
     height: 35px;
     border-radius: 10px;
     text-align:left;
@@ -154,6 +171,6 @@ footer {
 .table p {
     font-family: "Bai Jamjuree", sans-serif;
     font-weight: normal;
-    font-size: large;
+    font-size: 18.5px;
 }
 
