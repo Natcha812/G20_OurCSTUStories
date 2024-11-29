@@ -86,15 +86,43 @@ nav {
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   }
+  .journeyimg{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+  }
 
-  .journeyimg img {
+  .journeyimg figure img {
     display: inline-block;
     width: 450px;
-    height: 200px;
+    height: 300px;
     object-fit: cover;
     margin: 0 10px;
     border: 2px solid#638692;
     margin-bottom: 10px;
     border-radius: 7px;
+}
+figure {
+    padding-top: 10px;
+    display: flex; /* ทำให้แต่ละกลุ่มอยู่ในรูปแบบคอลัมน์ */
+    flex-direction: column;
+    margin: 0; /* ลบ margin ออก */
+}
+
+img {
+    width: 300px; /* ปรับขนาดรูป */
+    height: auto; /* ให้ขนาดภาพคงอัตราส่วนเดิม */
+}
+
+figcaption {
+    margin-top: 10px; /* เพิ่มช่องว่างระหว่างรูปและข้อความ */
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
 
 }
+
