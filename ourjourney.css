@@ -30,6 +30,12 @@ footer {
     margin: 0 auto; 
 }
 
+.footer-container a:hover {
+    color: #f8f6f6;
+    background-color: #3b4b7d;
+    border-radius: 5px;
+}
+
 .footer-link {
     text-decoration: none;
     color: #3b4b7d;
