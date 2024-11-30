@@ -135,11 +135,12 @@ footer {
     margin-bottom: 15px;
     padding: 20px;
     font-family: "Bai Jamjuree", sans-serif;
-    display: flex; 
     align-items: center;
     gap: 10px; 
     text-align: center;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .text-content {
