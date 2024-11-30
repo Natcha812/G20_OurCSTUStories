@@ -6,7 +6,7 @@
 }
 
 body{
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,10 +18,10 @@ body{
 
 .container{
     position: relative;
-    max-width: 900px;
+    max-width: 280px;
     width: 100%;
     border-radius: 6px;
-    padding: 30px;
+    padding: 10px;
     margin: 0 15px;
     background-color: #fff;
     box-shadow: 0 5px 10px rgb(233, 228, 228);
@@ -67,7 +67,7 @@ body{
 }
 
 .container form .fields{
-    display: flex;
+    display:flow-root;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ body{
 
 form .fields .inputfields{
     display: flex;
-    width: calc(100% / 3 - 15px);
+    width: calc(100% / 1 - 4px);
     flex-direction: column;
     margin: 4px 0;
 }
@@ -141,7 +141,7 @@ form .fields-c .inputfields-c{
     border: 1px solid#aaa;
     padding: 0 15px;
     height: 220px;
-    width: 838px;
+    width: 260px;
     margin: 8px 0;
 }
 
@@ -160,7 +160,7 @@ form .fields-c .inputfields-c{
     align-items: center;
     justify-items: center;
     height: 45px;
-    max-width: 200px;
+    max-width: 120px;
     width: 100%;
     border: none;
     outline: none;
@@ -185,3 +185,26 @@ form button i{
     font-weight: 550;
     font-style: normal;
 }
+
+@media screen and (min-width: 900px) {
+    .container{
+        max-width: 900px;
+    }
+
+    .container form .fields{
+        display: flex;
+    }
+
+    form .fields .inputfields{
+        display: flex;
+        width: calc(100% / 3 - 15px);
+    }
+
+    .inputfields-c textarea{
+        width: 838px;
+    }
+
+    .container form button{
+        max-width: 200px;
+    }
+    }
