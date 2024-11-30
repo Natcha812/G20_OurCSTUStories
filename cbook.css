@@ -186,7 +186,7 @@ form button i{
     font-style: normal;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 600px) {
     .container{
         max-width: 900px;
     }
@@ -201,10 +201,33 @@ form button i{
     }
 
     .inputfields-c textarea{
-        width: 838px;
+        width: 700px;
     }
 
     .container form button{
         max-width: 200px;
     }
     }
+
+    @media screen and (min-width: 900px) {
+        .container{
+            max-width: 900px;
+        }
+    
+        .container form .fields{
+            display: flex;
+        }
+    
+        form .fields .inputfields{
+            display: flex;
+            width: calc(100% / 3 - 15px);
+        }
+    
+        .inputfields-c textarea{
+            width: 838px;
+        }
+    
+        .container form button{
+            max-width: 200px;
+        }
+        }
