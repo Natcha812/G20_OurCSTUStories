@@ -185,9 +185,3 @@ form button i{
     font-weight: 550;
     font-style: normal;
 }
-
-@media (max-width: 750px){
-    form .fields .inputfields .inputfields-c{
-        width: calc(100% / 2 - 15px);
-    }
-}

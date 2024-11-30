@@ -1,15 +1,8 @@
-const form = document.querySelector("form"),
-         submit = form.querySelector(".submit"),
-         allInput = form.querySelector(".form1 input");
+let submit = document.querySelector("#submit");
+let textex = document.querySelector("#textex");
 
-submit.addEventListener("click" , ()=>{
-    allInput.forEach(input => {
-       if(input.value != ""){
-        form.classList.add('secActive')
-       }else{
-        form.classList.remove('secActive');
-        
-       }
+submit.addEventListener("submit", function(e){
+  e.preventDefault();
+  console.log(textex.value);
+});
 
-    })
-})
