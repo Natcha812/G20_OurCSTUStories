@@ -45,6 +45,24 @@ nav {
     transition: color 0.3s;
 }
 
+.heading {
+    color: #19274F;
+}
+.textbox,
+.textboxtwo {
+    margin-bottom: 20px;
+}
+
+.member-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.member-list li {
+    color: #19274F;
+    margin: 5px 0;
+}
+
 footer {
     background-color: #ace1eb; 
     text-align: center; 
