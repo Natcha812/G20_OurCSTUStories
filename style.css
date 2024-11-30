@@ -14,6 +14,7 @@ section .textboxone{
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
     border-radius: 10px;
+    color: #8d5d27;
 
 }
 header {
@@ -22,6 +23,7 @@ header {
     text-align: center;
     font-family: "Bai Jamjuree", sans-serif;
     border-radius: 10px;
+    color: #764d1f;
 }
 
 header h1 {
@@ -46,13 +48,13 @@ nav {
 
 .nav-container a:hover {
     color: #f8f6f6;
-    background-color: #3b4b7d;
+    background-color: #7c4126;
     border-radius: 5px;
 }
 
 .nav-link {
     text-decoration: none;
-    color: #3b4b7d;
+    color: #cd5a2d;
     font-weight: 600;
     font-size: 16px;
     transition: color 0.3s;
@@ -95,6 +97,11 @@ nav {
     flex-wrap: wrap; 
   }
 
+  .journeyimg b {
+    color: #19274F;
+  }
+
+
   .journeyimg figure img {
     display: inline-block;
     width: 450px;
@@ -126,3 +133,6 @@ figcaption {
 
 }
 
+.content h3 {
+    color: #19274F;
+}
