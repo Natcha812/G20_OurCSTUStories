@@ -8,24 +8,12 @@ body {
     font-size: 17px;
 }
 
-section .textboxone{
-    background-color: #bbc9ef;
-    padding: 2px;
-    text-align: center;
-    font-family: "Bai Jamjuree", sans-serif;
-    border-radius: 10px;
-    color: #27278d;
 
-}
 header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     background-color: #9aafe9;
     padding: 2px;
     text-align: center;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Mali", cursive;
     border-radius: 10px;
     color: #391f76;
 }
@@ -35,94 +23,97 @@ header h1 {
 }
 
 header p {
-    margin: 5px;
-    display: flex;
-    justify-content: center;
+    font-family: "Bai Jamjuree", sans-serif; 
 }
 
 nav {
-    background-color: #c0cae7;
-    text-align: center; 
-    font-family: "Bai Jamjuree", sans-serif;
-    padding: 13px 0; 
-    margin-bottom: 10px;
+    background-color: #B6B5D8;
+    text-align: center;
+    padding: 15px 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
-    align-items: center;
-    max-width: 50%;
-    margin: 0 auto; 
+    gap: 20px;
 }
 
 .nav-container a:hover {
     color: #f8f6f6;
-    background-color: #5e59be;
+    background-color: #3b4b7d;
     border-radius: 5px;
 }
 
 .nav-link {
     text-decoration: none;
-    color: #4a2dcd;
+    color: #3b4b7d;
     font-weight: 600;
-    font-size: 16px;
-    transition: color 0.3s;
-}
-
-.logo {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    width: 10px; /* ปรับขนาดให้ใหญ่ขึ้น */
-    height: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 
 .logo img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px; /* สามารถเพิ่มหรือเอาออกได้ตามต้องการ */
     position: absolute;
-    top: 10px; /* ระยะห่างจากขอบบน */
-    right: 10px; /* ระยะห่างจากขอบขวา */
-    width: 50px; /* ขนาดความกว้างของโลโก้ */
-    height: auto; /* ปรับขนาดอัตโนมัติตามอัตราส่วน */
-    z-index: 10; /* แสดงให้ลอยเหนือองค์ประกอบอื่น */
+    top: 15px;
+    right: 15px;
+    width: 80px;
+    height: auto;
 }
 
 /* ตัวอย่างการกำหนดรูปแบบให้กับส่วนต่างๆ ของเว็บไซต์ */
 
   .textboxone {
+    font-family: "Mali", cursive;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 20px auto;
     text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: #e7b5d9;
   }
-  .journeyimg{
-    padding-top: 20px;
-    text-align: center;
+  .textboxone:hover {
+    transform: scale(1.1);
+  }
+  .journeyimg {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0; 
   }
 
   .journeyimg b {
     color: #19274F;
+    flex-wrap: wrap;
   }
 
 
   .journeyimg figure img {
     display: inline-block;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 250px;
     object-fit: cover;
     margin: 0 10px;
     border: 2px solid#638692;
     margin-bottom: 10px;
     border-radius: 7px;
+    transition: transform 0.3s ease, box-shadow 0.3s;
+    flex-wrap: wrap;
 }
+.journeyimg figure img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.3);
+}
+
 figure {
     padding-top: 10px;
     display: flex; /* ทำให้แต่ละกลุ่มอยู่ในรูปแบบคอลัมน์ */
@@ -146,19 +137,4 @@ figcaption {
 
 .content h3 {
     color: #19274F;
-}
-
-@media screen and (min-width: 600px){
-    header{
-        width: auto;
-    }
-  
-    .logo img {
-        width: 100px;
-    }
-
-    .journeyimg figure img {
-        width: 450px;
-        height: 300px;
-    }
 }
