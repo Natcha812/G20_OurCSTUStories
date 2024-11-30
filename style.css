@@ -18,6 +18,10 @@ section .textboxone{
 
 }
 header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     background-color: #9aafe9;
     padding: 2px;
     text-align: center;
@@ -28,6 +32,12 @@ header {
 
 header h1 {
     font-size: 5vw ; 
+}
+
+header p {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
 }
 
 nav {
@@ -41,6 +51,7 @@ nav {
 .nav-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     max-width: 50%;
     margin: 0 auto; 
@@ -64,7 +75,7 @@ nav {
     position: absolute;
     top: 10px;
     right: 10px;
-    width: 100px; /* ปรับขนาดให้ใหญ่ขึ้น */
+    width: 10px; /* ปรับขนาดให้ใหญ่ขึ้น */
     height: auto;
 }
 
@@ -75,7 +86,7 @@ nav {
     position: absolute;
     top: 10px; /* ระยะห่างจากขอบบน */
     right: 10px; /* ระยะห่างจากขอบขวา */
-    width: 100px; /* ขนาดความกว้างของโลโก้ */
+    width: 50px; /* ขนาดความกว้างของโลโก้ */
     height: auto; /* ปรับขนาดอัตโนมัติตามอัตราส่วน */
     z-index: 10; /* แสดงให้ลอยเหนือองค์ประกอบอื่น */
 }
@@ -104,8 +115,8 @@ nav {
 
   .journeyimg figure img {
     display: inline-block;
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
     margin: 0 10px;
     border: 2px solid#638692;
@@ -135,4 +146,19 @@ figcaption {
 
 .content h3 {
     color: #19274F;
+}
+
+@media screen and (min-width: 600px){
+    header{
+        width: auto;
+    }
+  
+    .logo img {
+        width: 100px;
+    }
+
+    .journeyimg figure img {
+        width: 450px;
+        height: 300px;
+    }
 }
