@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    background-color: #ffeed6;
+    font-size: 17px;
+}
+
+section .textboxone{
+    background-color: #ffd993;
+    padding: 2px;
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 10px;
+    color: #8d5d27;
+
+}
+header {
+    background-color: #ffe4a4;
+    padding: 2px;
+    text-align: center;
+    font-family: "Bai Jamjuree", sans-serif;
+    border-radius: 10px;
+    color: #764d1f;
+}
+
+header h1 {
+    font-size: 5vw ; 
+}
+
+nav {
+    background-color: #ffc480;
+    text-align: center; 
+    font-family: "Bai Jamjuree", sans-serif;
+    padding: 13px 0; 
+    margin-bottom: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 50%;
+    margin: 0 auto; 
+}
+
+.nav-container a:hover {
+    color: #f8f6f6;
+    background-color: #7c4126;
+    border-radius: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #cd5a2d;
+    font-weight: 600;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100px; /* ปรับขนาดให้ใหญ่ขึ้น */
+    height: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; /* สามารถเพิ่มหรือเอาออกได้ตามต้องการ */
+    position: absolute;
+    top: 10px; /* ระยะห่างจากขอบบน */
+    right: 10px; /* ระยะห่างจากขอบขวา */
+    width: 100px; /* ขนาดความกว้างของโลโก้ */
+    height: auto; /* ปรับขนาดอัตโนมัติตามอัตราส่วน */
+    z-index: 10; /* แสดงให้ลอยเหนือองค์ประกอบอื่น */
+}
+
+/* ตัวอย่างการกำหนดรูปแบบให้กับส่วนต่างๆ ของเว็บไซต์ */
+
+  .textboxone {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  .journeyimg{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+  }
+
+  .journeyimg b {
+    color: #19274F;
+  }
+
+
+  .journeyimg figure img {
+    display: inline-block;
+    width: 450px;
+    height: 300px;
+    object-fit: cover;
+    margin: 0 10px;
+    border: 2px solid#638692;
+    margin-bottom: 10px;
+    border-radius: 7px;
+}
+figure {
+    padding-top: 10px;
+    display: flex; /* ทำให้แต่ละกลุ่มอยู่ในรูปแบบคอลัมน์ */
+    flex-direction: column;
+    margin: 0; /* ลบ margin ออก */
+}
+
+img {
+    width: 300px; /* ปรับขนาดรูป */
+    height: auto; /* ให้ขนาดภาพคงอัตราส่วนเดิม */
+}
+
+figcaption {
+    margin-top: 10px; /* เพิ่มช่องว่างระหว่างรูปและข้อความ */
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content h3 {
+    color: #19274F;
+}
