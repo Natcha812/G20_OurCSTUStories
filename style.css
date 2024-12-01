@@ -487,7 +487,23 @@ font-weight: bold;
             margin-top: 20px;
         }
         
-    
+        @media (max-width: 480px) {
+            .form1 .fields {
+                flex-direction: column; 
+                margin-right: 20%;
+            }
+           
+            .inputfields input,
+            .inputfields textarea {
+                width: 200%; 
+                max-width: 600px; 
+                font-size: 14px;
+                padding: 10px; 
+                border-radius: 5px; 
+                box-sizing: border-box; 
+            }
+            
+        }        
 .required {
     color: red; 
     font-weight: bold; 

@@ -275,3 +275,41 @@ footer {
 aside h3 {
     color: #19274F;
 }
+
+@media (max-width: 480px) {
+    .table table, .table table th, .table table td {
+        display: block;
+        width: 96%;
+    }
+    .futureimg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .table p {
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .table h2 {
+        padding: 10px;
+        font-size: 23px;
+        
+    }
+    
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #19274F;
+}
+
+table {
+    border: none; 
+}
