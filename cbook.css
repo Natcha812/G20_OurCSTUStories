@@ -259,5 +259,12 @@ form.active.modalbox{
  }
 
  h2{
-    margin-bottom: 200px;
+    margin-bottom: 10px;
  }
+
+ .comment-box:last-child { 
+    border-bottom: none;
+ }
+        .comment-name { 
+            font-weight: bold;
+         }
