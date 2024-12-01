@@ -100,6 +100,25 @@ form .fields .inputfields{
 .inputfields input:is(:focus , :valid){
    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
+
+.inputfields input:focus{
+    outline: 0;
+}
+
+.inputfields.success input{
+    border-color: #09c372;
+}
+
+.inputfields.error input{
+    border-color: #ff3860;
+}
+
+.inputfields.error{
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
 .inputfields input[type="date"]{
     color: #707070;
     font-family: "Poppins", sans-serif;
@@ -235,16 +254,16 @@ form button i{
     margin-top: 25px;
 }
 
-form.active.submit{
+section.active.submit{
     display:none;
 }
 
-form.active{
+section.active{
     opacity: 0;
     pointer-events: auto;
 }
 
-form.active.modalbox{
+section.active.modalbox{
     opacity: 1;
     pointer-events: auto;
     transform: translate(-50%,-50%) scale(1);
@@ -263,8 +282,11 @@ form.active.modalbox{
  }
 
  .comment-box:last-child { 
-    border-bottom: none;
+    border-top: none;
  }
-        .comment-name { 
-            font-weight: bold;
+
+.comment-name { 
+font-weight: bold;
          }
+
+        
