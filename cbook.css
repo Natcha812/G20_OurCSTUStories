@@ -289,4 +289,51 @@ section.active.modalbox{
 font-weight: bold;
          }
 
+         /*
+         @media (max-width: 610px) {
+            .responsive-container {
+                padding: 15px;
+            }
         
+            .responsive-container header {
+                font-size: 20px;
+            }
+        
+            button#responsive-submit {
+                width: 100%;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .responsive-container {
+                box-shadow: none;
+                padding: 10px;
+            }
+        
+            .responsive-container header {
+                font-size: 18px;
+            }
+        
+            .responsive-input-group label {
+                font-size: 12px;
+            }
+        
+            .responsive-input-group input,
+            .responsive-input-group textarea {
+                font-size: 12px;
+                padding: 8px;
+            }
+        
+            button#responsive-submit {
+                font-size: 14px;
+            }
+        
+            #responsive-comments-section h2 {
+                font-size: 16px;
+            }
+        
+            .comment-box p {
+                font-size: 12px;
+            }
+        }
+        */

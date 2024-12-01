@@ -145,7 +145,7 @@ figcaption {
 
 
 
-body2{
+.main2{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -340,7 +340,7 @@ form button i{
     margin: 0 6px;
 }
 
-.subbut{
+.submit{
     font-family: "Poppins", sans-serif;
     font-weight: 550;
     font-style: normal;
@@ -430,9 +430,113 @@ section.active.modalbox{
 font-weight: bold;
          }
 
-         @media (max-width: 768px) {
+         @media (max-width: 740px) {
             .container {
-                flex-direction: column;
+                padding: 20px;  /* Reduce padding for smaller screens */
             }
         
+            .form1 .fields {
+                flex-direction: column;  /* Stack fields vertically */
+            }
+        
+            .inputfields, .inputfields-c {
+                width: 100%;  /* Make the input fields full width */
+            }
+        
+            .inputfields input, .inputfields-c textarea {
+                width: 100%;  
+                /* Ensure inputs and textarea fill the available space */
+            }
+        
+            /* Adjust the button size */
+            .container form button {
+                width: 100%;
+            }
+            .comments {
+        width: 100%;
+        margin: 0;  /* ลบ margin เพื่อให้เต็มพื้นที่ */
+        padding: 0; /* ลบ padding */
+    }
+
+    /* ทำให้ textarea เต็มหน้าจอ */
+    .comments textarea {
+        width: 100%;  /* เต็มหน้าจอ */
+        height: 150px; /* กำหนดความสูงให้พอดีกับความต้องการ */
+        padding: 10px;  /* ให้มี padding เล็กน้อย */
+        font-size: 14px; /* ขนาดตัวอักษร */
+        box-sizing: border-box; /* ให้คิด padding เข้าไปในขนาดรวม */
+    }
+
+    /* เพิ่มให้ input fields และ comments fields ไม่มีช่องว่างเกิน */
+    .fields, .fields-c {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
         }
+        
+       @media (max-width: 480px) {
+    .main2 {
+        padding-left: 15px; /* เพิ่ม padding ขวาและซ้ายเล็กน้อย */
+        padding-right: 15px;
+    }
+
+    .container {
+        padding: 15px;
+        margin-left: 0;  
+        margin-right: 0; 
+        width: 100%;  
+        box-sizing: border-box;  
+    }
+
+    .form1 .fields {
+        flex-direction: column;
+    }
+
+    .inputfields, .inputfields-c {
+        width: 100%;
+       
+    }
+
+    .inputfields input {
+        width: 100%; 
+        font-size: 14px;  
+    }
+
+    /* ปรับปุ่มให้เต็มความกว้าง */
+    .container form button {
+        width: 100%;
+        font-size: 16px;  
+    }
+
+    /* ปรับ modalbox */
+    .modalbox {
+        max-width: 100%;  /
+    }
+   
+    .inputfields-c textarea {
+        width: 100%; 
+        margin: 0 auto; 
+        padding: 12px;
+        font-size: 14px;
+        box-sizing: border-box; 
+    }
+
+    .comments {
+        margin: 0; 
+        padding: 10px;
+    }
+
+    .submit {
+        font-size: medium;
+    }
+
+    
+}
+
+.required {
+    color: red; 
+    font-weight: bold; 
+}
+
