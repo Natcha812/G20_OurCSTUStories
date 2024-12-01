@@ -419,16 +419,42 @@ footer {
         padding: 10px; 
     }
 
-    .image-content img {
+    .image-content1 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content2 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content3 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content4 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content5 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content6 img {
         width: 120px; 
         height: 120px;
     }
 
     .text-content {
-        font-size: 14.5px; 
+        font-size: 15px; 
     }
 
     .text-content h2 {
-        font-size: 23px; 
+        font-size: 22px; 
+
     }
 }
