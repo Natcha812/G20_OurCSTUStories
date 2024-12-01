@@ -133,8 +133,8 @@ footer {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
-    margin: 20px 0; 
 }
+
 .journeyimg img {
     display: inline-block;
     width: 450px;
@@ -415,6 +415,43 @@ footer {
 }
 
 @media (max-width: 480px) {
+
+    .info-section:hover {
+        transform: translateY(-10px);
+        background-color: #acebe9;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .info-section2:hover {
+        transform: translateY(-10px);
+        background-color: #A3DEFF;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .info-section3:hover {
+        transform: translateY(-10px);
+        background-color: #bdcaf0;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .info-section4:hover {
+        transform: translateY(-10px);
+        background-color: #acebe9;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .info-section6:hover {
+        transform: translateY(-10px);
+        background-color: #bdcaf0;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .info-section5:hover {
+        transform: translateY(-10px);
+        background-color: #A3DEFF;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+    
     .info-section {
         padding: 10px; 
     }
