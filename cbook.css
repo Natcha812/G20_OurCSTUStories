@@ -6,7 +6,7 @@
 }
 
 body{
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,13 +18,13 @@ body{
 
 .container{
     position: relative;
-    max-width: 280px;
+    max-width: 900px;
     width: 100%;
-    border-radius: 6px;
-    padding: 10px;
+    border-radius: 25px;
+    padding: 30px;
     margin: 0 15px;
     background-color: #fff;
-    box-shadow: 0 5px 10px rgb(233, 228, 228);
+    box-shadow: 0 5px 15px rgb(243, 241, 240);
 }
 
 .container header{ 
@@ -67,7 +67,7 @@ body{
 }
 
 .container form .fields{
-    display:flow-root;
+    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -75,7 +75,7 @@ body{
 
 form .fields .inputfields{
     display: flex;
-    width: calc(100% / 1 - 4px);
+    width: calc(100% / 3 - 15px);
     flex-direction: column;
     margin: 4px 0;
 }
@@ -141,7 +141,7 @@ form .fields-c .inputfields-c{
     border: 1px solid#aaa;
     padding: 0 15px;
     height: 220px;
-    width: 260px;
+    width: 838px;
     margin: 8px 0;
 }
 
@@ -160,7 +160,7 @@ form .fields-c .inputfields-c{
     align-items: center;
     justify-items: center;
     height: 45px;
-    max-width: 120px;
+    max-width: 200px;
     width: 100%;
     border: none;
     outline: none;
@@ -173,7 +173,7 @@ form .fields-c .inputfields-c{
 }
 
 form button:hover{
-    background-color: #003e9b;
+    background-color:#003e9b;
 }
 
 form button i{
@@ -186,8 +186,78 @@ form button i{
     font-style: normal;
 }
 
-@media (max-width: 750px){
-    form .fields .inputfields .inputfields-c{
-        width: calc(100% / 2 - 15px);
-    }
+.modalbox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    max-width: 380px;
+    width: 100%;
+    border-radius: 24px;
+    background-color: #fff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 03s ease;
+    transform: translate(-50%,-50%) scale(1.2);
 }
+
+.modalbox i{
+    font-size: 70px;
+    color: #4070f4;
+}
+
+.modalbox h2{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #333;
+}
+
+.modalbox h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+}
+
+.modalbox button{
+    font-size: 14px;
+    padding: 6px 12px;
+    margin: 0 10px;
+}
+
+.modalbox .buttons{
+    margin-top: 25px;
+}
+
+form.active.submit{
+    display:none;
+}
+
+form.active{
+    opacity: 0;
+    pointer-events: auto;
+}
+
+form.active.modalbox{
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%,-50%) scale(1);
+}
+ .overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    pointer-events: none;
+ }
+
+ h2{
+    margin-bottom: 200px;
+ }

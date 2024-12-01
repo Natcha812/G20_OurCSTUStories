@@ -12,6 +12,10 @@
 600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,
 800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" >
+
+
+
 </head>
 <body>
     
@@ -25,32 +29,32 @@
                     <div class="fields">
                         <div class="inputfields">
                             <label>Full Name</label>
-                            <input type="text" id="textex"placeholder="Enter your name" required>
+                            <input type="text" id="textex"placeholder="Enter your name" >
                         </div>
 
                         <div class="inputfields">
                             <label>Email</label>
-                            <input type="email" id="textex"placeholder="Enter your email" required>
+                            <input type="email" id="textex"placeholder="Enter your email" >
                         </div>
 
                         <div class="inputfields">
                             <label>PhoneNumber</label>
-                            <input type="number"id="textex" maxlength="10" placeholder="Enter phone number" required>
+                            <input type="number"id="textex" maxlength="10" placeholder="Enter phone number" >
                         </div>
 
                         <div class="inputfields">
                             <label>Gender</label>
-                            <input type="text" id="textex"placeholder="Enter your gender" required>
+                            <input type="text" id="textex"placeholder="Enter your gender" >
                         </div>
 
                         <div class="inputfields">
                             <label>Date of Birth</label>
-                            <input type="date" id="textex"placeholder="date" required>
+                            <input type="date" id="textex"placeholder="date" >
                         </div>
 
                         <div class="inputfields">
                             <label>Occupation</label>
-                            <input type="text"  id="textex"placeholder="Enter your occupation" required>
+                            <input type="text"  id="textex"placeholder="Enter your occupation" >
                         </div>
                     </div>
                 </div>
@@ -65,14 +69,36 @@
                     <div class="fields-c">
                         <div class="inputfields-c">
                             <label>Comments</label>
-                            <textarea type="text" id="textex"placeholder="Write your comments" required></textarea>
+                            <textarea type="text" id="comment"placeholder="Write your comments" ></textarea>
                         </form>
                         </div>
 
-                        <button type ="submit">
-                            <span class="subbut" value ="submit">SUBMIT</span>
+                    <section>
+                        <button class ="submit">
+                            <span>SUBMIT</span>
+                            <span class="overlay"></span>
                             <i class="uil uil-navigator"></i>
                         </button>
+
+                        <h2>Comments:</h2>
+                        <div id="commentsContainer"></div> 
+
+                        <div class="modalbox">
+                            <i class="fa-regular fa-circle-check"></i>
+                            <h2>Thank You!</h2>
+                            <h3>Your details has been successfully
+                                    submitted. Thanks!
+                            </h3>
+
+                            <div class="buttons">
+                                <button class="close-btn">OK</button>
+                            </div>
+                        </div>
+                    
+                    </section>
+                    
+                      
+                        <script src="javabook.js"></script>
                     </div>
                 </div>
             </div>
@@ -80,7 +106,7 @@
     </div>
     
 
-   <script src="javabook.js"></script>
+   
 
 
 
