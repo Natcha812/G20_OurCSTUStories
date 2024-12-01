@@ -413,3 +413,22 @@ footer {
     line-height: 1.8;
     
 }
+
+@media (max-width: 480px) {
+    .info-section {
+        padding: 10px; 
+    }
+
+    .image-content img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .text-content {
+        font-size: 14.5px; 
+    }
+
+    .text-content h2 {
+        font-size: 23px; 
+    }
+}

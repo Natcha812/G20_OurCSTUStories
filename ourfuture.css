@@ -280,8 +280,12 @@ aside h3 {
     .table table, .table table th, .table table td {
         display: block;
         width: 96%;
+        margin-top: 5px;
+        margin-left: 5px;
+
+        align-items: center;
     }
-    .futureimg {
+    .imgtable {
         display: flex;
         flex-direction: column;
     }
