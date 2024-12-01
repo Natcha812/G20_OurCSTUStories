@@ -271,7 +271,7 @@ form .fields .inputfields{
     color: #333;
 }
 
-<!--           space             --
+/*          space             */
 
 .comments .fields-c{
     display: flex;
@@ -503,6 +503,14 @@ font-weight: bold;
                 box-sizing: border-box; 
             }
             
+            .logo img {
+                width: 60px;
+                height: auto;
+            }
+
+            header h1 {
+                font-size: 20px;
+            }
         }        
 .required {
     color: red; 
