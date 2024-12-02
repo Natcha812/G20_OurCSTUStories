@@ -271,7 +271,7 @@ form .fields .inputfields{
     color: #333;
 }
 
-<!--           space             --
+/*          space             */
 
 .comments .fields-c{
     display: flex;
@@ -476,6 +476,7 @@ font-weight: bold;
             width: 306%;
             height: 200px;  
             padding: 12px;
+            margin-left: 5px;
        
         }
         
@@ -490,12 +491,12 @@ font-weight: bold;
         @media (max-width: 480px) {
             .form1 .fields {
                 flex-direction: column; 
-                margin-right: 20%;
+                margin-right: 44%;
             }
            
             .inputfields input,
             .inputfields textarea {
-                width: 200%; 
+                width: 400%; 
                 max-width: 600px; 
                 font-size: 14px;
                 padding: 10px; 
@@ -503,6 +504,14 @@ font-weight: bold;
                 box-sizing: border-box; 
             }
             
+            .logo img {
+                width: 60.5px;
+                height: auto;
+            }
+
+            header h1 {
+                font-size: larger;
+            }
         }        
 .required {
     color: red; 
