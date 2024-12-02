@@ -145,7 +145,7 @@ figcaption {
 
 
 
-body2{
+.main2{
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -340,7 +340,7 @@ form button i{
     margin: 0 6px;
 }
 
-.subbut{
+.submit{
     font-family: "Poppins", sans-serif;
     font-weight: 550;
     font-style: normal;
@@ -430,9 +430,82 @@ section.active.modalbox{
 font-weight: bold;
          }
 
-         @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-            }
-        
+
+
+         .main2 {
+            max-width: 100%;
+            box-sizing: border-box;
         }
+        
+        .form1 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        
+        .inputfields input,
+        .inputfields textarea {
+            width: 100%; 
+            padding: 12px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        
+        .inputfields label {
+            margin-bottom: 8px;
+        }
+        
+
+        .submit {
+            width: 100%;
+            padding: 15px;
+            background-color: purple;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .submit:hover {
+            background-color: darkviolet;
+        }
+        
+       
+        .comments textarea {
+            width: 306%;
+            height: 200px;  
+            padding: 12px;
+       
+        }
+        
+        h2 {
+            margin-top: 20px;
+        }
+        
+        #commentsContainer {
+            margin-top: 20px;
+        }
+        
+        @media (max-width: 480px) {
+            .form1 .fields {
+                flex-direction: column; 
+                margin-right: 20%;
+            }
+           
+            .inputfields input,
+            .inputfields textarea {
+                width: 200%; 
+                max-width: 600px; 
+                font-size: 14px;
+                padding: 10px; 
+                border-radius: 5px; 
+                box-sizing: border-box; 
+            }
+            
+        }        
+.required {
+    color: red; 
+    font-weight: bold; 
+}
+

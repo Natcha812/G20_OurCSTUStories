@@ -413,3 +413,48 @@ footer {
     line-height: 1.8;
     
 }
+
+@media (max-width: 480px) {
+    .info-section {
+        padding: 10px; 
+    }
+
+    .image-content1 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content2 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content3 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content4 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content5 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .image-content6 img {
+        width: 120px; 
+        height: 120px;
+    }
+
+    .text-content {
+        font-size: 15px; 
+    }
+
+    .text-content h2 {
+        font-size: 22px; 
+
+    }
+}
