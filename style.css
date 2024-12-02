@@ -518,3 +518,20 @@ font-weight: bold;
     font-weight: bold; 
 }
 
+.textboxgb {
+    font-family: "Mali", cursive;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: #bdd1f0;
+    margin-top: 25px;
+    
+}
+.textboxgb:hover {
+    transform: scale(1.1);
+}
