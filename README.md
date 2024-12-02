@@ -1,20 +1,20 @@
 # G20_OurCSTUStories
 6709650011 นางสาวณัชชา กาญจนาภา 
-(ทำ ourjourney.html/ourjourney.cssเป็นหลัก,ตกแต่งและปรับแก้cssในเว็บเพจ,เชื่อมโยงหน้าเว็บเพจเข้าด้วยกัน,shared reposity)
+(ทำ ourjourney.html/ourjourney.cssเป็นหลัก,ตกแต่งและปรับแก้cssในเว็บเพจ,เชื่อมโยงหน้าเว็บเพจเข้าด้วยกัน,shared reposity,ใส่คำบรรยายในคลิป)
 
 6709650045 นายธนกฤต เพ็ชรสวัสดิ์ 
-(ทำHomepage)
+(ทำHomepageเป็นหลัก)
 
 6709650102 นายกฤศ ชนะประเสริฐ
-()
+(ทำResponsiveเป็นหลัก , ปรับแต่งcssในเว็บเพจ)
 
 6709650227 นายชญานินท์ เจียมเจริญ
-()
+(ทำResponsiveเป็นหลัก)
 
 6709650243 นางสาวชนิภรณ์ คิมประเสริฐ
-(ทำourfuture.html/ourfuture.css เป็นหลัก, ปรับJavascript เพิ่มdynamicในเว็บเพจ,ปรับresponsiveเพิ่มเติม,)
+(ทำourfuture.html/ourfuture.css เป็นหลัก, ปรับJavascriptเพื่อเพิ่มdynamicในเว็บเพจ,ปรับresponsiveเพิ่มเติม, อัพAWS)
 
 6709650375 นายธนยศ พรมกุดตุ้ม
-(ทำGuestBooks)
+(ทำGuestBooks,Javascript)
 
 
