@@ -12,7 +12,7 @@
 (ทำResponsiveเป็นหลัก)
 
 6709650243 นางสาวชนิภรณ์ คิมประเสริฐ
-(ทำourfuture.html/ourfuture.css เป็นหลัก, ปรับJavascriptเพื่อเพิ่มdynamicในเว็บเพจ,ปรับresponsiveเพิ่มเติม, อัพAWS)
+(ทำourfuture.html/ourfuture.css เป็นหลัก, ปรับJavascriptเพื่อเพิ่มdynamicในเว็บเพจ,ปรับresponsiveเพิ่มเติม, อัพ AWS , ให้เสียงอธิบายคลิป)
 
 6709650375 นายธนยศ พรมกุดตุ้ม
 (ทำGuestBooks,Javascript)
