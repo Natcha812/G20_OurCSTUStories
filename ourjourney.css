@@ -554,16 +554,15 @@ footer {
     }
 
     .topic img {
-        width: 200px;
+        width: 180px;
         height: auto;
     }
 
     .contentpic {
         display: block;
-        width: 96%;
         margin-top: 5px;
-        margin-left: 5px;
         align-items: center;
+        max-width: 100%;
     }
 
     .member-list {

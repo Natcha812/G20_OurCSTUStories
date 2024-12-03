@@ -258,6 +258,7 @@ footer {
     align-items: center;
     justify-content: center;
     margin: auto;
+    margin-top: 10px;
 }
 
 .table h2 {
@@ -276,15 +277,17 @@ aside h3 {
     color: #19274F;
 }
 
+
+
 @media (max-width: 480px) {
     .table table, .table table th, .table table td {
         display: block;
         width: 96%;
         margin-top: 5px;
         margin-left: 5px;
-
         align-items: center;
     }
+    
     .imgtable {
         display: flex;
         flex-direction: column;
@@ -301,6 +304,7 @@ aside h3 {
         font-size: 23px;
         
     }
+    
     
     
 }
