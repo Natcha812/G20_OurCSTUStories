@@ -536,9 +536,9 @@ font-weight: bold;
     transform: scale(1.1);
 }
 
-@media (min-width: 760px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .main2 {
-        margin-top: 10px;
+      margin: 0 auto;
+      padding: 10px; 
     }
-    
-}
+  }
