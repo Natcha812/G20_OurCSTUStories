@@ -25,6 +25,9 @@ header {
     font-family: "Mali", cursive;
     color: #3b4b7d;
 }
+.highlight-title {
+    color: #3b4b7d;
+}
 
 .container {
     display: inline-block;
