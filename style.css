@@ -535,3 +535,10 @@ font-weight: bold;
 .textboxgb:hover {
     transform: scale(1.1);
 }
+
+@media (min-width: 760px) {
+    .main2 {
+        margin-top: 10px;
+    }
+    
+}

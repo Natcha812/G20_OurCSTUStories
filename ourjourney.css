@@ -460,6 +460,8 @@ footer {
 .topic img {
     width: 250px; 
     height: auto;
+    margin: 0 auto;
+    display: block;
 }
 
   
@@ -574,5 +576,8 @@ footer {
 @media (min-width: 760px) {
     .topic img {
         max-width: 80%;
+        display: block;
+        margin: 0 auto;
     }
+    
 }
