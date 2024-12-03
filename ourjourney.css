@@ -112,10 +112,30 @@ nav {
     margin-bottom: 20px;
 }
 
+.content {
+    background: linear-gradient(to right, #ffffff, #f8fbfc);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
 .member-list {
     list-style-type: none; 
     padding: 0;
     margin-left: 15px;
+    background: linear-gradient(to right, #ffffff, #f8fbfc);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    max-width: 800px;
+    margin: 20px auto;
+    margin-left: 5px;
+    font-size: 16.5px;
+    line-height: 1.8;
 }
 
 .member-list li {
@@ -405,17 +425,46 @@ footer {
     object-fit: cover;
     border: 2px solid #ddd;
 }
-.content {
-    background: linear-gradient(to right, #ffffff, #f8fbfc);
-    padding: 25px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    max-width: 800px;
-    margin: 20px auto;
-    font-size: 16px;
-    line-height: 1.8;
-    
+
+
+.contentpic {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    padding: 20px;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex; 
+    align-items: center;
+    gap: 1; 
+    max-width: 1115px;
+    transition: transform 0.3s ease;
+    margin: auto;
 }
+
+.contentpic:hover {
+    transform: translateY(-10px);
+    background-color: #b8daeb;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.textpic {
+    flex: 1 ; 
+}
+
+.topic {
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.topic img {
+    width: 250px; 
+    height: auto;
+}
+
+  
+  
+
 
 @media (max-width: 480px) {
 
@@ -496,5 +545,35 @@ footer {
     .text-content h2 {
         font-size: 22px; 
 
+    }
+
+    .topic {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .topic img {
+        width: 200px;
+        height: auto;
+    }
+
+    .contentpic {
+        display: block;
+        width: 96%;
+        margin-top: 5px;
+        margin-left: 5px;
+        align-items: center;
+    }
+
+    .member-list {
+        margin-right: 8px;
+    }
+
+}
+
+@media (min-width: 760px) {
+    .topic img {
+        max-width: 80%;
     }
 }
